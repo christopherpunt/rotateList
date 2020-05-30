@@ -106,6 +106,14 @@ head1 = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5, None)))))
 print(rotate(head1, 2))
 print()
 
+#1,2,3,4,5 k=36
+print("1,2,3,4,5 k=36")
+head0 = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5, None)))))
+print(oldrotate(head0, 36))
+head1 = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5, None)))))      
+print(rotate(head1, 36))
+print()
+
 #0,1,2 k=1
 print("0,1,2 k=1")
 head0 = ListNode(0, ListNode(1, ListNode(2, None)))
